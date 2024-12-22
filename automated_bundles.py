@@ -133,7 +133,6 @@ def gen_bundle():
 if __name__  == "__main__":
     
     audio_dir = os.path.abspath(sys.argv[1])
-    output_dir = os.path.abspath(sys.argv[2])
 
     #test out change tempo
     gen_bundle()
